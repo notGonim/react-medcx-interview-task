@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.scss'
-import { Avatar, IconButton } from '@material-ui/core';
+import { Avatar } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { auth } from '../../firebase';
