@@ -27,7 +27,8 @@ export const Header = () => {
                 <Link to="/post">Post</Link>
             </div>
             <div className="header_right">
-                <Avatar onClick={signout} src={photoURL} className="avatar" />
+                <Avatar onClick={signout} src={photoURL} className="avatar" > {email[0]}</Avatar>
+                <p>{displayName}</p>
             </div>
 
 
