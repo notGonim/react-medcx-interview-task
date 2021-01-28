@@ -17,7 +17,6 @@ export const Login = () => {
                     photoURL: user.photoURL
                 }
             ))
-            console.log(user.displayName)
         }).catch(err => alert(err.message))
     }
 
