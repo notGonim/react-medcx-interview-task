@@ -1,3 +1,30 @@
-.header{
-    
+.header {
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  border-bottom: 1px solid whitesmoke;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  position: sticky;
+}
+.header_left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: #fff;
+
+  a {
+    text-decoration: none;
+    padding-right: 5px;
+    font-size: medium;
+    font-weight: 400;
+    color: black;
+  }
+}
+
+.avatar {
+  cursor: pointer !important;
 }
