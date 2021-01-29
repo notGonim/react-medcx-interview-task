@@ -39,7 +39,7 @@ export const CreatePost = () => {
                     <input type="text" placeholder="Details " name="details"
                         ref={register({ required: true })} />
                     {errors.details && <p className="form_error">Details is Required</p>}
-                    <Button type="submit" variant="contained" color="primary">Post</Button>
+                        <Button type="submit" variant="contained" color="primary">Post</Button>
                 </form>
             </div>
 
