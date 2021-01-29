@@ -43,7 +43,7 @@ function App() {
             <Header />
             <Switch>
               <Route path='/' exact component={Dashboard} />
-              <Route path='/post  ' exact component={CreatePost} /> 
+              <Route path='/post' exact component={CreatePost} /> 
               <Route path='/posts' exact component={PostsList} />
               <Route path='/posts/post' exact component={Post} />
             </Switch>

@@ -10,6 +10,7 @@ export const PostsList = () => {
     return (
         <div className="posts_container">
             <div className="post_container" onClick={postData}>
+                postlist
                 <Post />
             </div>
 
